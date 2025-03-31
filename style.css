@@ -15,6 +15,7 @@
     --regent-grey: #7F9D9F;
     --black-squeeze: #F3F9FA;
     --beetle-gren: #547878;
+    --water-leaf: #A1E9DE;
  }
 
  body{
@@ -93,6 +94,10 @@
             border: none;
             padding-block: .6rem;
             border-radius: .5rem;
+        }
+
+        .button-selected {
+            background:var(--topaz)
         }
 
         input {
@@ -181,7 +186,7 @@
                 grid-template-columns: repeat(3, 1fr);
 
                 button:hover {
-                    background: var(--topaz);
+                    background: var(--bg-body);
                     cursor: pointer;
                     transition: .3s;
                 }
@@ -205,7 +210,7 @@
         }
 
         button:hover {
-            background: var(--bg-body);
+            background: var(--water-leaf);
             transition: .3s;
             cursor: pointer;
         }
