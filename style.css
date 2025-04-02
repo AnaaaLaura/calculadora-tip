@@ -154,7 +154,7 @@
     }
 
     button{
-        margin-bottom: 1.6rem;
+        margin-top: 1.6rem;
         width: 100%;
         background: var(--topaz);
         border: none;
@@ -167,7 +167,17 @@
     }
 
  }
+ 
+ input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button {
+     display: none;
+ }
+
     @media(min-width: 920px) {
+        header{
+            margin-top: 5rem;
+        }
+
         main{
             display: flex;
             max-width: 92rem;
@@ -193,10 +203,6 @@
            }
     }
 
-    input::-webkit-inner-spin-button,
-    input::-webkit-outer-spin-button {
-        display: none;
-    }
 
     .results {
         display: flex;
